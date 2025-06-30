@@ -1,5 +1,5 @@
 # track-expenses-app-backend
-(https://github.com/user-attachments/assets/1c09b4d4-cd95-4c43-84ff-2c2b649e7753)
+<img src = https://github.com/user-attachments/assets/0a10a314-227e-4e8a-96d8-385b8843a5be/>
 
 
 * [About project](#about-project)
