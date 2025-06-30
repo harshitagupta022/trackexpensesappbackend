@@ -1,0 +1,23 @@
+databaseChangeLog:
+  -  changeSet:
+       id: "create table wallets"
+       author: iwona007
+       changes:
+         -  createTable:
+              tableName: wallets
+              columns:
+                -  column:
+                     name: id
+                     type: bigint
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                -  column:
+                     name: name
+                     type: varchar(50)
+                -  column:
+                     name: creation_date
+                     type: timestamp
+                     constraints:
+                       nullable: false

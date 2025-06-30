@@ -1,0 +1,50 @@
+databaseChangeLog:
+  - changeSet:
+      id: "create table financial transactions"
+      author: dstuzynski
+      changes:
+        - createTable:
+            tableName: financial_transactions
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: wallet_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: transaction_type
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount
+                  type: decimal(15,2)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: transaction_date
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(255)
+  - changeSet:
+      id: "create foreign key"
+      author: dstuzynski
+      changes:
+        - addForeignKeyConstraint:
+            constraintName: fk_financial_transactions_wallet_id
+            baseColumnNames: wallet_id
+            baseTableName: financial_transactions
+            referencedColumnNames: id
+            referencedTableName: wallets
+            onDelete: CASCADE
+            onUpdate: CASCADE
