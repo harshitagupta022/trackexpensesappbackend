@@ -1,8 +1,6 @@
 # track-expenses-app-backend
+(https://github.com/user-attachments/assets/1c09b4d4-cd95-4c43-84ff-2c2b649e7753)
 
-<div align="center">
-  ![ChatGPT Image Jun 30, 2025, 04_26_17 PM](https://github.com/user-attachments/assets/5b8cb574-3e9d-4c0c-9444-ab93717cf9d0)
-</div>
 
 * [About project](#about-project)
 * [Prerequisites](#prerequisites)
