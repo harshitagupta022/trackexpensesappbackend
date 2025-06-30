@@ -52,14 +52,14 @@ Wait until the database server starts completely, it may take a while.
 ## Tech stack
 
 ### Development
-- [Java 17 LTS](https://openjdk.org/projects/jdk/17/)
-- [Spring Boot 2](https://spring.io/projects/spring-boot)
+- [Java 23 LTS](https://openjdk.org/projects/jdk/23/)
+- [Spring Boot ](https://spring.io/projects/spring-boot)
 - [Spring Data](https://spring.io/projects/spring-data)
 - [Spring Security](https://spring.io/projects/spring-security)
 - [Swagger / OpenAPI](https://swagger.io/specification/)
 - [MySql (docker)](https://www.mysql.com/)
 - [Liquibase](https://www.liquibase.org/)
-- [Maven 3.x](https://maven.apache.org/)
+- [Maven](https://maven.apache.org/)
 
 
 
