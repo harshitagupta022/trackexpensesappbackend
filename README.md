@@ -31,7 +31,7 @@ The following tools are required to start the application:
 ### 1. Clone the repository
 Please clone the repository by https or ssh (below we use the https method).
 ```
-git clone https://github.com/bycza-zagroda/track-expenses-app-backend.git
+git clone https://github.com/harshitagupta022/trackexpensesappbackend.git
 ```
 
 ### 2. Run the database
