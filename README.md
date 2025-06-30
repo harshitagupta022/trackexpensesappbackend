@@ -1,7 +1,7 @@
 # track-expenses-app-backend
 
 <div align="center">
-  <img src="docs/images/placeholder-150.png" alt="Track Expenses app logo" />
+  ![ChatGPT Image Jun 30, 2025, 04_26_17 PM](https://github.com/user-attachments/assets/5b8cb574-3e9d-4c0c-9444-ab93717cf9d0)
 </div>
 
 * [About project](#about-project)
